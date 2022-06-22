@@ -1,0 +1,83 @@
+
+.filters {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 220px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px darkgrey;
+}
+
+.selector {
+    height: 35px;
+    width: 180px;
+    border-radius: 5px;
+    background-color: #fff;
+    color:#3B3B3B;
+}
+
+.remove-filters-button{
+    height: 35px;
+    width: 180px;
+    background-color: #3B3B3B;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+.filters__header, .sort-select__article, .release-date__article {
+    text-align: left;
+    width: 160px;
+    margin-left: 20px;
+}
+
+.sort-select__article, .release-date__article {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.genres {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 20px;
+    justify-content: flex-start;
+}
+
+.genre {
+    font-size: 15px;
+    text-align: start;
+}
+
+input {
+    margin-left: 0;
+}
+
+.pagination {
+    display: grid;
+
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.next-movies-button, .back-movies-button {
+    width: 90px;
+    height: 35px;
+    background-color:cornflowerblue;
+    border: 0;
+    border-radius: 5px;
+}
+
+.pagination-article {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.page-now{
+    margin-right: 10px;
+}
+
+.page-all{
+    margin-left: 10px;
+}
