@@ -7,5 +7,5 @@ JavaScript, ES6+, React.js, Redux, Router
 Flex/Grid Layout
 ## Launch of the project:
 <code>npm run start</code> - launches a site for development
-## Image of project:
+## Image of the project:
 ![Image of project](/public/preview.png)
