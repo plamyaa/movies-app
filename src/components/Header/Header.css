@@ -9,7 +9,7 @@
 .header__article {
     margin-left: 20px;
     color: white;
-
+    text-decoration: none;
 }
 
 .header__button {

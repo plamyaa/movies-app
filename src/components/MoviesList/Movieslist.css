@@ -1,4 +1,20 @@
 
-.movies-list {
-    margin: 20px;
+
+@media (min-width: 1200px) {
+    .movies-list {
+        margin-top: 20px;
+        display: grid;
+        height: fit-content;
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+    }
+}
+@media (max-width: 1200px) {
+    .movies-list {
+        margin-top: 20px;
+        width: auto;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: 100%;
+    }
 }

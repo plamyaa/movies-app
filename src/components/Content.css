@@ -1,4 +1,12 @@
 .content {
-    display: flex;
+    display: grid;
+    grid-template-columns: 262px auto;
 }
 
+@media (max-width: 772px) {
+    .content {
+        display: grid;
+        grid-template-columns: 100%;
+
+    }
+}

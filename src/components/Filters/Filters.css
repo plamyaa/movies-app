@@ -1,83 +1,69 @@
-
 .filters {
     margin-top: 20px;
     margin-left: 20px;
     width: 220px;
+    height: fit-content;
     border: 1px solid grey;
     border-radius: 5px;
     padding: 10px;
     box-shadow: 5px 5px 10px darkgrey;
 }
 
-.selector {
-    height: 35px;
-    width: 180px;
-    border-radius: 5px;
-    background-color: #fff;
-    color:#3B3B3B;
+@media screen and (max-width: 772px) {
+    .filters {
+        display: none;
+    }
 }
 
-.remove-filters-button{
+.remove-filters-button {
     height: 35px;
     width: 180px;
     background-color: #3B3B3B;
     color: white;
     border: 0;
     border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
 }
 
-.filters__header, .sort-select__article, .release-date__article {
+.remove-filters-button:hover {
+    border-radius: 10px;
+    background-color: #5d5d5d;
+    transition: 0.4s;
+}
+
+.filters__header,
+.sort-select__article,
+.release-date__article {
     text-align: left;
     width: 160px;
     margin-left: 20px;
 }
 
-.sort-select__article, .release-date__article {
+.sort-select__article,
+.release-date__article {
     margin-top: 15px;
     margin-bottom: 10px;
 }
-
-.genres {
-    display: flex;
-    flex-direction: column;
-    margin-top: 15px;
-    margin-left: 20px;
-    justify-content: flex-start;
-}
-
-.genre {
-    font-size: 15px;
-    text-align: start;
-}
-
-input {
-    margin-left: 0;
-}
-
-.pagination {
-    display: grid;
-
-    margin-top: 20px;
-    justify-content: space-evenly;
-}
-
-.next-movies-button, .back-movies-button {
-    width: 90px;
+.search-button {
+    margin-top: 10px;
     height: 35px;
-    background-color:cornflowerblue;
+    width: 180px;
+    background-color: #3B3B3B;
+    color: white;
     border: 0;
     border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
 }
-
-.pagination-article {
-    grid-column-start: 1;
-    grid-column-end: 3;
+.search-button:hover {
+    border-radius: 10px;
+    background-color: #5d5d5d;
+    transition: 0.4s;
 }
-
-.page-now{
-    margin-right: 10px;
-}
-
-.page-all{
-    margin-left: 10px;
+input {
+    z-index: -1;
+    margin-left: 3px;
+    vertical-align: middle;
+    margin-bottom: 5px;
 }

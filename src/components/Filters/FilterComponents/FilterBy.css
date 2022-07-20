@@ -1,0 +1,8 @@
+.selector {
+    height: 35px;
+    width: 180px;
+    border-radius: 5px;
+    background-color: #fff;
+    color:#3B3B3B;
+    cursor: pointer;
+}

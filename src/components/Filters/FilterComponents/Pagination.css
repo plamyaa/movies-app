@@ -1,0 +1,33 @@
+.pagination {
+    display: grid;
+
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.next-movies-button, .back-movies-button {
+    width: 90px;
+    height: 35px;
+    background-color:cornflowerblue;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.next-movies-button:hover, .back-movies-button:hover {
+    background-color: #2478ff;
+    transition: 0.4s;
+}
+
+.pagination-article {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.page-now{
+    margin-right: 10px;
+}
+
+.page-all{
+    margin-left: 10px;
+}

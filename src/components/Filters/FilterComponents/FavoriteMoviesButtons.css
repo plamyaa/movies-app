@@ -1,0 +1,24 @@
+.autorised-filter {
+    margin-top: 25px;
+    display: grid;
+    grid-template-rows: fit-content fit-content;
+    row-gap: 10px;
+    justify-content: center;
+}
+.favorite-films {
+    background-color: #ad0000;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    width: 180px;
+    height: 25px;
+}
+.watch-later-films {
+    background-color: #c7c7c7;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    height: 25px;
+    width: 180px;
+}
