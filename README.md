@@ -1,7 +1,7 @@
 # Movies App
 ---
 ## What is the project about: 
-This is a small movie finder app. This is a small movie search application. With the ability to filter and search like in Tinder.
+This is a small movie search application with the ability to filter and search like in Tinder.
 ## Stack:
 JavaScript, ES6+, React.js, Redux, Router
 Flex/Grid Layout
